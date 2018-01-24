@@ -1,0 +1,886 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E9537A55EEE0899B5546BAA /* Pods____.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BB01279EDBB6C22DB356AE8 /* Pods____.framework */; };
+		AA42757D200648C80054EB30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA42757C200648C80054EB30 /* AppDelegate.swift */; };
+		AA427585200648C80054EB30 /* ___.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA427583200648C80054EB30 /* ___.xcdatamodeld */; };
+		AA42758A200648C80054EB30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA427588200648C80054EB30 /* LaunchScreen.storyboard */; };
+		AA427595200648C80054EB30 /* ___Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA427594200648C80054EB30 /* ___Tests.swift */; };
+		AA4275A0200648C80054EB30 /* ___UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA42759F200648C80054EB30 /* ___UITests.swift */; };
+		AA4275B520064F060054EB30 /* QJNavgationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4275B420064F060054EB30 /* QJNavgationViewController.swift */; };
+		AA4275B720064F440054EB30 /* QJBeaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4275B620064F440054EB30 /* QJBeaseViewController.swift */; };
+		AA4275B920064FB70054EB30 /* WXColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4275B820064FB70054EB30 /* WXColorExtension.swift */; };
+		AA4275BB200650A90054EB30 /* QJMainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4275BA200650A90054EB30 /* QJMainTabBarViewController.swift */; };
+		AA4275BF200653CC0054EB30 /* QJHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4275BE200653CC0054EB30 /* QJHomeViewController.swift */; };
+		AA4275C1200653DB0054EB30 /* QJMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4275C0200653DB0054EB30 /* QJMessageViewController.swift */; };
+		AA4275CB200707BA0054EB30 /* WXFontConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4275CA200707BA0054EB30 /* WXFontConstant.swift */; };
+		AA4275CE20074A0A0054EB30 /* QJFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4275CD20074A0A0054EB30 /* QJFriendViewController.swift */; };
+		AA4275D320075B200054EB30 /* QJMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4275D020075B200054EB30 /* QJMeViewController.swift */; };
+		AA4275D520075B5F0054EB30 /* QJMeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4275D420075B5F0054EB30 /* QJMeModel.swift */; };
+		AA4275D7200760670054EB30 /* QJPhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4275D6200760670054EB30 /* QJPhotoModel.swift */; };
+		AA4275DD200767C70054EB30 /* QJMeHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4275DB200767C70054EB30 /* QJMeHeaderTableViewCell.swift */; };
+		AA4275DE200767C70054EB30 /* QJMeHeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA4275DC200767C70054EB30 /* QJMeHeaderTableViewCell.xib */; };
+		AA4275E120076EBF0054EB30 /* QJMePhotosWallTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4275DF20076EBF0054EB30 /* QJMePhotosWallTableViewCell.swift */; };
+		AA4275E220076EBF0054EB30 /* QJMePhotosWallTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA4275E020076EBF0054EB30 /* QJMePhotosWallTableViewCell.xib */; };
+		AA4275E4200771C60054EB30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA4275E3200771C60054EB30 /* Assets.xcassets */; };
+		AA4275E7200867250054EB30 /* QJPhotoWallCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4275E5200867250054EB30 /* QJPhotoWallCollectionViewCell.swift */; };
+		AA4275E8200867250054EB30 /* QJPhotoWallCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA4275E6200867250054EB30 /* QJPhotoWallCollectionViewCell.xib */; };
+		AA4275EB200878140054EB30 /* QJMeMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4275E9200878140054EB30 /* QJMeMessageTableViewCell.swift */; };
+		AA4275EC200878140054EB30 /* QJMeMessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA4275EA200878140054EB30 /* QJMeMessageTableViewCell.xib */; };
+		AA4275F32008886D0054EB30 /* QJLogOutTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4275F12008886D0054EB30 /* QJLogOutTableViewCell.swift */; };
+		AA4275F42008886D0054EB30 /* QJLogOutTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA4275F22008886D0054EB30 /* QJLogOutTableViewCell.xib */; };
+		AA4275F620089DB00054EB30 /* QJHeadIconViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4275F520089DB00054EB30 /* QJHeadIconViewController.swift */; };
+		AA67BA5820158D50008F835B /* QJPrefixHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA67BA5720158D50008F835B /* QJPrefixHeader.swift */; };
+		AA67BA5B201735A8008F835B /* WXPhotoBrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA67BA5A201735A8008F835B /* WXPhotoBrowserView.swift */; };
+		AA7488A1201088F600FFE544 /* WXButtonEdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7488A0201088F600FFE544 /* WXButtonEdgeInsets.swift */; };
+		AA7488A3201190FA00FFE544 /* QJLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7488A2201190FA00FFE544 /* QJLoginViewController.swift */; };
+		AA7488A52011914700FFE544 /* QJVerifyAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7488A42011914700FFE544 /* QJVerifyAccountViewController.swift */; };
+		AA7488A72011B00500FFE544 /* QJResetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7488A62011B00500FFE544 /* QJResetViewController.swift */; };
+		AA7488AB2011F19C00FFE544 /* QJRegistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7488AA2011F19C00FFE544 /* QJRegistViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA427591200648C80054EB30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA427571200648C80054EB30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA427578200648C80054EB30;
+			remoteInfo = "请假帖";
+		};
+		AA42759C200648C80054EB30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA427571200648C80054EB30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA427578200648C80054EB30;
+			remoteInfo = "请假帖";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BB01279EDBB6C22DB356AE8 /* Pods____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods____.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CE03F1F99521D7AFB8D4162 /* Pods-请假帖.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-请假帖.release.xcconfig"; path = "Pods/Target Support Files/Pods-请假帖/Pods-请假帖.release.xcconfig"; sourceTree = "<group>"; };
+		AA427579200648C80054EB30 /* 请假帖.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "请假帖.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA42757C200648C80054EB30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA427584200648C80054EB30 /* ___.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "___.xcdatamodel"; sourceTree = "<group>"; };
+		AA427589200648C80054EB30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA42758B200648C80054EB30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA427590200648C80054EB30 /* 请假帖Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "请假帖Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA427594200648C80054EB30 /* ___Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___Tests.swift"; sourceTree = "<group>"; };
+		AA427596200648C80054EB30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA42759B200648C80054EB30 /* 请假帖UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "请假帖UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA42759F200648C80054EB30 /* ___UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___UITests.swift"; sourceTree = "<group>"; };
+		AA4275A1200648C80054EB30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA4275B420064F060054EB30 /* QJNavgationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QJNavgationViewController.swift; sourceTree = "<group>"; };
+		AA4275B620064F440054EB30 /* QJBeaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QJBeaseViewController.swift; sourceTree = "<group>"; };
+		AA4275B820064FB70054EB30 /* WXColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WXColorExtension.swift; sourceTree = "<group>"; };
+		AA4275BA200650A90054EB30 /* QJMainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QJMainTabBarViewController.swift; sourceTree = "<group>"; };
+		AA4275BE200653CC0054EB30 /* QJHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QJHomeViewController.swift; sourceTree = "<group>"; };
+		AA4275C0200653DB0054EB30 /* QJMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QJMessageViewController.swift; sourceTree = "<group>"; };
+		AA4275CA200707BA0054EB30 /* WXFontConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WXFontConstant.swift; sourceTree = "<group>"; };
+		AA4275CD20074A0A0054EB30 /* QJFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QJFriendViewController.swift; sourceTree = "<group>"; };
+		AA4275D020075B200054EB30 /* QJMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QJMeViewController.swift; sourceTree = "<group>"; };
+		AA4275D420075B5F0054EB30 /* QJMeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QJMeModel.swift; sourceTree = "<group>"; };
+		AA4275D6200760670054EB30 /* QJPhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QJPhotoModel.swift; sourceTree = "<group>"; };
+		AA4275DB200767C70054EB30 /* QJMeHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QJMeHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		AA4275DC200767C70054EB30 /* QJMeHeaderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QJMeHeaderTableViewCell.xib; sourceTree = "<group>"; };
+		AA4275DF20076EBF0054EB30 /* QJMePhotosWallTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QJMePhotosWallTableViewCell.swift; sourceTree = "<group>"; };
+		AA4275E020076EBF0054EB30 /* QJMePhotosWallTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QJMePhotosWallTableViewCell.xib; sourceTree = "<group>"; };
+		AA4275E3200771C60054EB30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA4275E5200867250054EB30 /* QJPhotoWallCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QJPhotoWallCollectionViewCell.swift; sourceTree = "<group>"; };
+		AA4275E6200867250054EB30 /* QJPhotoWallCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QJPhotoWallCollectionViewCell.xib; sourceTree = "<group>"; };
+		AA4275E9200878140054EB30 /* QJMeMessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QJMeMessageTableViewCell.swift; sourceTree = "<group>"; };
+		AA4275EA200878140054EB30 /* QJMeMessageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QJMeMessageTableViewCell.xib; sourceTree = "<group>"; };
+		AA4275F12008886D0054EB30 /* QJLogOutTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QJLogOutTableViewCell.swift; sourceTree = "<group>"; };
+		AA4275F22008886D0054EB30 /* QJLogOutTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QJLogOutTableViewCell.xib; sourceTree = "<group>"; };
+		AA4275F520089DB00054EB30 /* QJHeadIconViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QJHeadIconViewController.swift; sourceTree = "<group>"; };
+		AA67BA5720158D50008F835B /* QJPrefixHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QJPrefixHeader.swift; sourceTree = "<group>"; };
+		AA67BA5A201735A8008F835B /* WXPhotoBrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WXPhotoBrowserView.swift; sourceTree = "<group>"; };
+		AA7488A0201088F600FFE544 /* WXButtonEdgeInsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WXButtonEdgeInsets.swift; sourceTree = "<group>"; };
+		AA7488A2201190FA00FFE544 /* QJLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QJLoginViewController.swift; sourceTree = "<group>"; };
+		AA7488A42011914700FFE544 /* QJVerifyAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QJVerifyAccountViewController.swift; sourceTree = "<group>"; };
+		AA7488A62011B00500FFE544 /* QJResetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QJResetViewController.swift; sourceTree = "<group>"; };
+		AA7488AA2011F19C00FFE544 /* QJRegistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QJRegistViewController.swift; sourceTree = "<group>"; };
+		E3F505295694694AFAFEB273 /* Pods-请假帖.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-请假帖.debug.xcconfig"; path = "Pods/Target Support Files/Pods-请假帖/Pods-请假帖.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA427576200648C80054EB30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E9537A55EEE0899B5546BAA /* Pods____.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA42758D200648C80054EB30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA427598200648C80054EB30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C353E84CF3272F0B19513B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3F505295694694AFAFEB273 /* Pods-请假帖.debug.xcconfig */,
+				5CE03F1F99521D7AFB8D4162 /* Pods-请假帖.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AA427570200648C80054EB30 = {
+			isa = PBXGroup;
+			children = (
+				AA42757B200648C80054EB30 /* 请假帖 */,
+				AA427593200648C80054EB30 /* 请假帖Tests */,
+				AA42759E200648C80054EB30 /* 请假帖UITests */,
+				AA42757A200648C80054EB30 /* Products */,
+				9C353E84CF3272F0B19513B3 /* Pods */,
+				CD133FBCB6173F026E60FEB1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AA42757A200648C80054EB30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA427579200648C80054EB30 /* 请假帖.app */,
+				AA427590200648C80054EB30 /* 请假帖Tests.xctest */,
+				AA42759B200648C80054EB30 /* 请假帖UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA42757B200648C80054EB30 /* 请假帖 */ = {
+			isa = PBXGroup;
+			children = (
+				AA4275B120064B880054EB30 /* Login */,
+				AA4275AF20064B880054EB30 /* Regist */,
+				AA4275AE20064B880054EB30 /* Main */,
+				AA4275BC2006537D0054EB30 /* Home */,
+				AA4275BD2006537D0054EB30 /* Message */,
+				AA4275CC200749D80054EB30 /* Friend */,
+				AA4275B020064B880054EB30 /* Me */,
+				AA4275B320064B890054EB30 /* Category */,
+				AA4275B220064B880054EB30 /* Libs */,
+				AA4275AD20064B880054EB30 /* Other */,
+			);
+			path = "请假帖";
+			sourceTree = "<group>";
+		};
+		AA427593200648C80054EB30 /* 请假帖Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AA427594200648C80054EB30 /* ___Tests.swift */,
+				AA427596200648C80054EB30 /* Info.plist */,
+			);
+			path = "请假帖Tests";
+			sourceTree = "<group>";
+		};
+		AA42759E200648C80054EB30 /* 请假帖UITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA42759F200648C80054EB30 /* ___UITests.swift */,
+				AA4275A1200648C80054EB30 /* Info.plist */,
+			);
+			path = "请假帖UITests";
+			sourceTree = "<group>";
+		};
+		AA4275AD20064B880054EB30 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				AA4275E3200771C60054EB30 /* Assets.xcassets */,
+				AA42757C200648C80054EB30 /* AppDelegate.swift */,
+				AA427588200648C80054EB30 /* LaunchScreen.storyboard */,
+				AA42758B200648C80054EB30 /* Info.plist */,
+				AA427583200648C80054EB30 /* ___.xcdatamodeld */,
+				AA67BA5720158D50008F835B /* QJPrefixHeader.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		AA4275AE20064B880054EB30 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				AA4275B420064F060054EB30 /* QJNavgationViewController.swift */,
+				AA4275B620064F440054EB30 /* QJBeaseViewController.swift */,
+				AA4275BA200650A90054EB30 /* QJMainTabBarViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		AA4275AF20064B880054EB30 /* Regist */ = {
+			isa = PBXGroup;
+			children = (
+				AA7488AA2011F19C00FFE544 /* QJRegistViewController.swift */,
+			);
+			path = Regist;
+			sourceTree = "<group>";
+		};
+		AA4275B020064B880054EB30 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				AA4275CF20075B200054EB30 /* Controller */,
+				AA4275D220075B200054EB30 /* Model */,
+				AA4275D120075B200054EB30 /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		AA4275B120064B880054EB30 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				AA7488A2201190FA00FFE544 /* QJLoginViewController.swift */,
+				AA7488A42011914700FFE544 /* QJVerifyAccountViewController.swift */,
+				AA7488A62011B00500FFE544 /* QJResetViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		AA4275B220064B880054EB30 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				AA67BA592017350F008F835B /* WXPhotoBrowser */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		AA4275B320064B890054EB30 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				AA4275B820064FB70054EB30 /* WXColorExtension.swift */,
+				AA4275CA200707BA0054EB30 /* WXFontConstant.swift */,
+				AA7488A0201088F600FFE544 /* WXButtonEdgeInsets.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		AA4275BC2006537D0054EB30 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				AA4275BE200653CC0054EB30 /* QJHomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		AA4275BD2006537D0054EB30 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				AA4275C0200653DB0054EB30 /* QJMessageViewController.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		AA4275CC200749D80054EB30 /* Friend */ = {
+			isa = PBXGroup;
+			children = (
+				AA4275CD20074A0A0054EB30 /* QJFriendViewController.swift */,
+			);
+			path = Friend;
+			sourceTree = "<group>";
+		};
+		AA4275CF20075B200054EB30 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AA4275D020075B200054EB30 /* QJMeViewController.swift */,
+				AA4275F520089DB00054EB30 /* QJHeadIconViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AA4275D120075B200054EB30 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AA4275DB200767C70054EB30 /* QJMeHeaderTableViewCell.swift */,
+				AA4275DC200767C70054EB30 /* QJMeHeaderTableViewCell.xib */,
+				AA4275DF20076EBF0054EB30 /* QJMePhotosWallTableViewCell.swift */,
+				AA4275E020076EBF0054EB30 /* QJMePhotosWallTableViewCell.xib */,
+				AA4275E9200878140054EB30 /* QJMeMessageTableViewCell.swift */,
+				AA4275EA200878140054EB30 /* QJMeMessageTableViewCell.xib */,
+				AA4275E5200867250054EB30 /* QJPhotoWallCollectionViewCell.swift */,
+				AA4275E6200867250054EB30 /* QJPhotoWallCollectionViewCell.xib */,
+				AA4275F12008886D0054EB30 /* QJLogOutTableViewCell.swift */,
+				AA4275F22008886D0054EB30 /* QJLogOutTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AA4275D220075B200054EB30 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AA4275D420075B5F0054EB30 /* QJMeModel.swift */,
+				AA4275D6200760670054EB30 /* QJPhotoModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AA67BA592017350F008F835B /* WXPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				AA67BA5A201735A8008F835B /* WXPhotoBrowserView.swift */,
+			);
+			path = WXPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		CD133FBCB6173F026E60FEB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BB01279EDBB6C22DB356AE8 /* Pods____.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA427578200648C80054EB30 /* 请假帖 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA4275A4200648C80054EB30 /* Build configuration list for PBXNativeTarget "请假帖" */;
+			buildPhases = (
+				4284B6A5C39AD4D04353BE76 /* [CP] Check Pods Manifest.lock */,
+				AA427575200648C80054EB30 /* Sources */,
+				AA427576200648C80054EB30 /* Frameworks */,
+				AA427577200648C80054EB30 /* Resources */,
+				E3F9DD49FC4B0947AA92CB11 /* [CP] Embed Pods Frameworks */,
+				63531DD12102E74A6B849163 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "请假帖";
+			productName = "请假帖";
+			productReference = AA427579200648C80054EB30 /* 请假帖.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA42758F200648C80054EB30 /* 请假帖Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA4275A7200648C80054EB30 /* Build configuration list for PBXNativeTarget "请假帖Tests" */;
+			buildPhases = (
+				AA42758C200648C80054EB30 /* Sources */,
+				AA42758D200648C80054EB30 /* Frameworks */,
+				AA42758E200648C80054EB30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA427592200648C80054EB30 /* PBXTargetDependency */,
+			);
+			name = "请假帖Tests";
+			productName = "请假帖Tests";
+			productReference = AA427590200648C80054EB30 /* 请假帖Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA42759A200648C80054EB30 /* 请假帖UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA4275AA200648C80054EB30 /* Build configuration list for PBXNativeTarget "请假帖UITests" */;
+			buildPhases = (
+				AA427597200648C80054EB30 /* Sources */,
+				AA427598200648C80054EB30 /* Frameworks */,
+				AA427599200648C80054EB30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA42759D200648C80054EB30 /* PBXTargetDependency */,
+			);
+			name = "请假帖UITests";
+			productName = "请假帖UITests";
+			productReference = AA42759B200648C80054EB30 /* 请假帖UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA427571200648C80054EB30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = PledgeWX;
+				TargetAttributes = {
+					AA427578200648C80054EB30 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					AA42758F200648C80054EB30 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AA427578200648C80054EB30;
+					};
+					AA42759A200648C80054EB30 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AA427578200648C80054EB30;
+					};
+				};
+			};
+			buildConfigurationList = AA427574200648C80054EB30 /* Build configuration list for PBXProject "请假帖" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA427570200648C80054EB30;
+			productRefGroup = AA42757A200648C80054EB30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA427578200648C80054EB30 /* 请假帖 */,
+				AA42758F200648C80054EB30 /* 请假帖Tests */,
+				AA42759A200648C80054EB30 /* 请假帖UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA427577200648C80054EB30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA4275DE200767C70054EB30 /* QJMeHeaderTableViewCell.xib in Resources */,
+				AA4275E220076EBF0054EB30 /* QJMePhotosWallTableViewCell.xib in Resources */,
+				AA4275E4200771C60054EB30 /* Assets.xcassets in Resources */,
+				AA4275E8200867250054EB30 /* QJPhotoWallCollectionViewCell.xib in Resources */,
+				AA4275EC200878140054EB30 /* QJMeMessageTableViewCell.xib in Resources */,
+				AA42758A200648C80054EB30 /* LaunchScreen.storyboard in Resources */,
+				AA4275F42008886D0054EB30 /* QJLogOutTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA42758E200648C80054EB30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA427599200648C80054EB30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4284B6A5C39AD4D04353BE76 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-请假帖-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63531DD12102E74A6B849163 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-请假帖/Pods-请假帖-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3F9DD49FC4B0947AA92CB11 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-请假帖/Pods-请假帖-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-请假帖/Pods-请假帖-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA427575200648C80054EB30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA4275BB200650A90054EB30 /* QJMainTabBarViewController.swift in Sources */,
+				AA7488A52011914700FFE544 /* QJVerifyAccountViewController.swift in Sources */,
+				AA4275CE20074A0A0054EB30 /* QJFriendViewController.swift in Sources */,
+				AA4275F32008886D0054EB30 /* QJLogOutTableViewCell.swift in Sources */,
+				AA7488A1201088F600FFE544 /* WXButtonEdgeInsets.swift in Sources */,
+				AA4275D7200760670054EB30 /* QJPhotoModel.swift in Sources */,
+				AA4275CB200707BA0054EB30 /* WXFontConstant.swift in Sources */,
+				AA4275D320075B200054EB30 /* QJMeViewController.swift in Sources */,
+				AA4275E120076EBF0054EB30 /* QJMePhotosWallTableViewCell.swift in Sources */,
+				AA7488A72011B00500FFE544 /* QJResetViewController.swift in Sources */,
+				AA4275D520075B5F0054EB30 /* QJMeModel.swift in Sources */,
+				AA4275BF200653CC0054EB30 /* QJHomeViewController.swift in Sources */,
+				AA4275B720064F440054EB30 /* QJBeaseViewController.swift in Sources */,
+				AA4275B920064FB70054EB30 /* WXColorExtension.swift in Sources */,
+				AA4275F620089DB00054EB30 /* QJHeadIconViewController.swift in Sources */,
+				AA7488AB2011F19C00FFE544 /* QJRegistViewController.swift in Sources */,
+				AA4275EB200878140054EB30 /* QJMeMessageTableViewCell.swift in Sources */,
+				AA67BA5B201735A8008F835B /* WXPhotoBrowserView.swift in Sources */,
+				AA7488A3201190FA00FFE544 /* QJLoginViewController.swift in Sources */,
+				AA67BA5820158D50008F835B /* QJPrefixHeader.swift in Sources */,
+				AA4275E7200867250054EB30 /* QJPhotoWallCollectionViewCell.swift in Sources */,
+				AA4275DD200767C70054EB30 /* QJMeHeaderTableViewCell.swift in Sources */,
+				AA4275B520064F060054EB30 /* QJNavgationViewController.swift in Sources */,
+				AA42757D200648C80054EB30 /* AppDelegate.swift in Sources */,
+				AA427585200648C80054EB30 /* ___.xcdatamodeld in Sources */,
+				AA4275C1200653DB0054EB30 /* QJMessageViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA42758C200648C80054EB30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA427595200648C80054EB30 /* ___Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA427597200648C80054EB30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA4275A0200648C80054EB30 /* ___UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA427592200648C80054EB30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA427578200648C80054EB30 /* 请假帖 */;
+			targetProxy = AA427591200648C80054EB30 /* PBXContainerItemProxy */;
+		};
+		AA42759D200648C80054EB30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA427578200648C80054EB30 /* 请假帖 */;
+			targetProxy = AA42759C200648C80054EB30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA427588200648C80054EB30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA427589200648C80054EB30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA4275A2200648C80054EB30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA4275A3200648C80054EB30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA4275A5200648C80054EB30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3F505295694694AFAFEB273 /* Pods-请假帖.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_ACTIVITY_MODE = "";
+				"DEBUG_ACTIVITY_MODE[arch=*]" = default;
+				DEVELOPMENT_TEAM = PVS6BMS5N9;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "$(SRCROOT)/请假帖/Other/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobilenow.LeaveCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA4275A6200648C80054EB30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CE03F1F99521D7AFB8D4162 /* Pods-请假帖.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_ACTIVITY_MODE = "";
+				DEVELOPMENT_TEAM = PVS6BMS5N9;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "$(SRCROOT)/请假帖/Other/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobilenow.LeaveCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA4275A8200648C80054EB30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PVS6BMS5N9;
+				INFOPLIST_FILE = "请假帖Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobilenow.LeaveCard.---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/请假帖.app/请假帖";
+			};
+			name = Debug;
+		};
+		AA4275A9200648C80054EB30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PVS6BMS5N9;
+				INFOPLIST_FILE = "请假帖Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobilenow.LeaveCard.---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/请假帖.app/请假帖";
+			};
+			name = Release;
+		};
+		AA4275AB200648C80054EB30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PVS6BMS5N9;
+				INFOPLIST_FILE = "请假帖UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobilenow.LeaveCard.---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "请假帖";
+			};
+			name = Debug;
+		};
+		AA4275AC200648C80054EB30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PVS6BMS5N9;
+				INFOPLIST_FILE = "请假帖UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobilenow.LeaveCard.---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "请假帖";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA427574200648C80054EB30 /* Build configuration list for PBXProject "请假帖" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA4275A2200648C80054EB30 /* Debug */,
+				AA4275A3200648C80054EB30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA4275A4200648C80054EB30 /* Build configuration list for PBXNativeTarget "请假帖" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA4275A5200648C80054EB30 /* Debug */,
+				AA4275A6200648C80054EB30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA4275A7200648C80054EB30 /* Build configuration list for PBXNativeTarget "请假帖Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA4275A8200648C80054EB30 /* Debug */,
+				AA4275A9200648C80054EB30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA4275AA200648C80054EB30 /* Build configuration list for PBXNativeTarget "请假帖UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA4275AB200648C80054EB30 /* Debug */,
+				AA4275AC200648C80054EB30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AA427583200648C80054EB30 /* ___.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AA427584200648C80054EB30 /* ___.xcdatamodel */,
+			);
+			currentVersion = AA427584200648C80054EB30 /* ___.xcdatamodel */;
+			path = "___.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AA427571200648C80054EB30 /* Project object */;
+}
