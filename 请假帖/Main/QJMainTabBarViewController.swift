@@ -48,7 +48,6 @@ class QJMainTabBarViewController: UITabBarController,UITabBarControllerDelegate 
         if tabIndex != selectedIndex {
             _lastSelectedIndex = selectedIndex
         }
-        print(tabIndex ?? 0)
     }
     @objc public func againLoginNotification(notification:Notification){
         presentLoginVc(isLogOut: true)

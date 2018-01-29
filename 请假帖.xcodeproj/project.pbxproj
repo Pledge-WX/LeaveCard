@@ -39,10 +39,15 @@
 		AA67BA5820158D50008F835B /* QJPrefixHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA67BA5720158D50008F835B /* QJPrefixHeader.swift */; };
 		AA67BA5B201735A8008F835B /* WXPhotoBrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA67BA5A201735A8008F835B /* WXPhotoBrowserView.swift */; };
 		AA7488A1201088F600FFE544 /* WXButtonEdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7488A0201088F600FFE544 /* WXButtonEdgeInsets.swift */; };
-		AA7488A3201190FA00FFE544 /* QJLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7488A2201190FA00FFE544 /* QJLoginViewController.swift */; };
-		AA7488A52011914700FFE544 /* QJVerifyAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7488A42011914700FFE544 /* QJVerifyAccountViewController.swift */; };
-		AA7488A72011B00500FFE544 /* QJResetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7488A62011B00500FFE544 /* QJResetViewController.swift */; };
 		AA7488AB2011F19C00FFE544 /* QJRegistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7488AA2011F19C00FFE544 /* QJRegistViewController.swift */; };
+		AA8E8D49201A2266000310C4 /* WXView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8E8D48201A2266000310C4 /* WXView+Extension.swift */; };
+		AA8E8D54201B2587000310C4 /* QJVerifyAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8E8D50201B2587000310C4 /* QJVerifyAccountViewController.swift */; };
+		AA8E8D55201B2587000310C4 /* QJResetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8E8D51201B2587000310C4 /* QJResetViewController.swift */; };
+		AA8E8D56201B2587000310C4 /* QJLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8E8D52201B2587000310C4 /* QJLoginViewController.swift */; };
+		AA8E8D5C201B2665000310C4 /* QJLoginViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8E8D5B201B2665000310C4 /* QJLoginViewController+Extension.swift */; };
+		AA8E8D5E201EC93C000310C4 /* QJRegistViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8E8D5D201EC93C000310C4 /* QJRegistViewController+Extension.swift */; };
+		AA8E8D60201ED257000310C4 /* QJVAViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8E8D5F201ED257000310C4 /* QJVAViewController+Extension.swift */; };
+		AA8E8D62201ED408000310C4 /* QJResetViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8E8D61201ED408000310C4 /* QJResetViewController+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,10 +107,15 @@
 		AA67BA5720158D50008F835B /* QJPrefixHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QJPrefixHeader.swift; sourceTree = "<group>"; };
 		AA67BA5A201735A8008F835B /* WXPhotoBrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WXPhotoBrowserView.swift; sourceTree = "<group>"; };
 		AA7488A0201088F600FFE544 /* WXButtonEdgeInsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WXButtonEdgeInsets.swift; sourceTree = "<group>"; };
-		AA7488A2201190FA00FFE544 /* QJLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QJLoginViewController.swift; sourceTree = "<group>"; };
-		AA7488A42011914700FFE544 /* QJVerifyAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QJVerifyAccountViewController.swift; sourceTree = "<group>"; };
-		AA7488A62011B00500FFE544 /* QJResetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QJResetViewController.swift; sourceTree = "<group>"; };
 		AA7488AA2011F19C00FFE544 /* QJRegistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QJRegistViewController.swift; sourceTree = "<group>"; };
+		AA8E8D48201A2266000310C4 /* WXView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WXView+Extension.swift"; sourceTree = "<group>"; };
+		AA8E8D50201B2587000310C4 /* QJVerifyAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QJVerifyAccountViewController.swift; sourceTree = "<group>"; };
+		AA8E8D51201B2587000310C4 /* QJResetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QJResetViewController.swift; sourceTree = "<group>"; };
+		AA8E8D52201B2587000310C4 /* QJLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QJLoginViewController.swift; sourceTree = "<group>"; };
+		AA8E8D5B201B2665000310C4 /* QJLoginViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QJLoginViewController+Extension.swift"; sourceTree = "<group>"; };
+		AA8E8D5D201EC93C000310C4 /* QJRegistViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QJRegistViewController+Extension.swift"; sourceTree = "<group>"; };
+		AA8E8D5F201ED257000310C4 /* QJVAViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QJVAViewController+Extension.swift"; sourceTree = "<group>"; };
+		AA8E8D61201ED408000310C4 /* QJResetViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QJResetViewController+Extension.swift"; sourceTree = "<group>"; };
 		E3F505295694694AFAFEB273 /* Pods-请假帖.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-请假帖.debug.xcconfig"; path = "Pods/Target Support Files/Pods-请假帖/Pods-请假帖.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -169,15 +179,15 @@
 		AA42757B200648C80054EB30 /* 请假帖 */ = {
 			isa = PBXGroup;
 			children = (
-				AA4275B120064B880054EB30 /* Login */,
-				AA4275AF20064B880054EB30 /* Regist */,
 				AA4275AE20064B880054EB30 /* Main */,
+				AA4275B120064B880054EB30 /* Login */,
 				AA4275BC2006537D0054EB30 /* Home */,
 				AA4275BD2006537D0054EB30 /* Message */,
 				AA4275CC200749D80054EB30 /* Friend */,
 				AA4275B020064B880054EB30 /* Me */,
 				AA4275B320064B890054EB30 /* Category */,
 				AA4275B220064B880054EB30 /* Libs */,
+				AA8E8D4A201B105B000310C4 /* Tools */,
 				AA4275AD20064B880054EB30 /* Other */,
 			);
 			path = "请假帖";
@@ -224,14 +234,6 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
-		AA4275AF20064B880054EB30 /* Regist */ = {
-			isa = PBXGroup;
-			children = (
-				AA7488AA2011F19C00FFE544 /* QJRegistViewController.swift */,
-			);
-			path = Regist;
-			sourceTree = "<group>";
-		};
 		AA4275B020064B880054EB30 /* Me */ = {
 			isa = PBXGroup;
 			children = (
@@ -245,9 +247,10 @@
 		AA4275B120064B880054EB30 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				AA7488A2201190FA00FFE544 /* QJLoginViewController.swift */,
-				AA7488A42011914700FFE544 /* QJVerifyAccountViewController.swift */,
-				AA7488A62011B00500FFE544 /* QJResetViewController.swift */,
+				AA8E8D4F201B2587000310C4 /* Controller */,
+				AA8E8D4B201B2586000310C4 /* Category */,
+				AA8E8D4D201B2587000310C4 /* Model */,
+				AA8E8D4E201B2587000310C4 /* View */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				AA4275B820064FB70054EB30 /* WXColorExtension.swift */,
 				AA4275CA200707BA0054EB30 /* WXFontConstant.swift */,
 				AA7488A0201088F600FFE544 /* WXButtonEdgeInsets.swift */,
+				AA8E8D48201A2266000310C4 /* WXView+Extension.swift */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -335,6 +339,49 @@
 				AA67BA5A201735A8008F835B /* WXPhotoBrowserView.swift */,
 			);
 			path = WXPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		AA8E8D4A201B105B000310C4 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		AA8E8D4B201B2586000310C4 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				AA8E8D5B201B2665000310C4 /* QJLoginViewController+Extension.swift */,
+				AA8E8D5D201EC93C000310C4 /* QJRegistViewController+Extension.swift */,
+				AA8E8D5F201ED257000310C4 /* QJVAViewController+Extension.swift */,
+				AA8E8D61201ED408000310C4 /* QJResetViewController+Extension.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		AA8E8D4D201B2587000310C4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AA8E8D4E201B2587000310C4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AA8E8D4F201B2587000310C4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AA7488AA2011F19C00FFE544 /* QJRegistViewController.swift */,
+				AA8E8D50201B2587000310C4 /* QJVerifyAccountViewController.swift */,
+				AA8E8D51201B2587000310C4 /* QJResetViewController.swift */,
+				AA8E8D52201B2587000310C4 /* QJLoginViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		CD133FBCB6173F026E60FEB1 /* Frameworks */ = {
@@ -543,28 +590,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA4275BB200650A90054EB30 /* QJMainTabBarViewController.swift in Sources */,
-				AA7488A52011914700FFE544 /* QJVerifyAccountViewController.swift in Sources */,
 				AA4275CE20074A0A0054EB30 /* QJFriendViewController.swift in Sources */,
+				AA8E8D62201ED408000310C4 /* QJResetViewController+Extension.swift in Sources */,
 				AA4275F32008886D0054EB30 /* QJLogOutTableViewCell.swift in Sources */,
 				AA7488A1201088F600FFE544 /* WXButtonEdgeInsets.swift in Sources */,
 				AA4275D7200760670054EB30 /* QJPhotoModel.swift in Sources */,
+				AA8E8D5E201EC93C000310C4 /* QJRegistViewController+Extension.swift in Sources */,
 				AA4275CB200707BA0054EB30 /* WXFontConstant.swift in Sources */,
+				AA8E8D56201B2587000310C4 /* QJLoginViewController.swift in Sources */,
 				AA4275D320075B200054EB30 /* QJMeViewController.swift in Sources */,
+				AA8E8D5C201B2665000310C4 /* QJLoginViewController+Extension.swift in Sources */,
 				AA4275E120076EBF0054EB30 /* QJMePhotosWallTableViewCell.swift in Sources */,
-				AA7488A72011B00500FFE544 /* QJResetViewController.swift in Sources */,
+				AA8E8D49201A2266000310C4 /* WXView+Extension.swift in Sources */,
 				AA4275D520075B5F0054EB30 /* QJMeModel.swift in Sources */,
 				AA4275BF200653CC0054EB30 /* QJHomeViewController.swift in Sources */,
 				AA4275B720064F440054EB30 /* QJBeaseViewController.swift in Sources */,
 				AA4275B920064FB70054EB30 /* WXColorExtension.swift in Sources */,
+				AA8E8D55201B2587000310C4 /* QJResetViewController.swift in Sources */,
 				AA4275F620089DB00054EB30 /* QJHeadIconViewController.swift in Sources */,
 				AA7488AB2011F19C00FFE544 /* QJRegistViewController.swift in Sources */,
 				AA4275EB200878140054EB30 /* QJMeMessageTableViewCell.swift in Sources */,
+				AA8E8D60201ED257000310C4 /* QJVAViewController+Extension.swift in Sources */,
 				AA67BA5B201735A8008F835B /* WXPhotoBrowserView.swift in Sources */,
-				AA7488A3201190FA00FFE544 /* QJLoginViewController.swift in Sources */,
 				AA67BA5820158D50008F835B /* QJPrefixHeader.swift in Sources */,
 				AA4275E7200867250054EB30 /* QJPhotoWallCollectionViewCell.swift in Sources */,
 				AA4275DD200767C70054EB30 /* QJMeHeaderTableViewCell.swift in Sources */,
 				AA4275B520064F060054EB30 /* QJNavgationViewController.swift in Sources */,
+				AA8E8D54201B2587000310C4 /* QJVerifyAccountViewController.swift in Sources */,
 				AA42757D200648C80054EB30 /* AppDelegate.swift in Sources */,
 				AA427585200648C80054EB30 /* ___.xcdatamodeld in Sources */,
 				AA4275C1200653DB0054EB30 /* QJMessageViewController.swift in Sources */,
@@ -645,6 +697,8 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEBUG_ACTIVITY_MODE = "";
+				"DEBUG_ACTIVITY_MODE[arch=*]" = default;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -702,6 +756,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEBUG_ACTIVITY_MODE = "";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
